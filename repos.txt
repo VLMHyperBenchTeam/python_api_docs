@@ -1,0 +1,8 @@
+https://github.com/VLMHyperBenchTeam/benchmark_run_config.git 0.1.2
+https://github.com/VLMHyperBenchTeam/metric_evaluator.git 0.1.0
+https://github.com/VLMHyperBenchTeam/dataset_iterator.git 0.1.0
+https://github.com/VLMHyperBenchTeam/model_qwen2-vl.git 0.1.0
+https://github.com/VLMHyperBenchTeam/system_prompt_adapter.git 0.1.0
+https://github.com/VLMHyperBenchTeam/prompt_adapter.git 0.1.0
+https://github.com/VLMHyperBenchTeam/benchmark_scheduler.git 0.1.3
+https://github.com/VLMHyperBenchTeam/model_interface.git 0.1.0
