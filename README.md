@@ -42,15 +42,23 @@
 
 ## Установка и запуск
 
-### Сборка Docker-образа
+### Запуск контейнера из опубликованного Docker-образа
+
+Для запуска контейнера и генерации документации выполните:
+
+```bash
+docker run -it --rm -v $(pwd):/workspace -u $(id -u):$(id -g) ghcr.io/vlmhyperbenchteam/github-docs-generator:0.1.0 python3 generate_docs.py
+```
+
+### Сборка Docker-образа локально
 
 Для сборки Docker-образа выполните следующую команду:
 
 ```bash
-docker build -t github-docs-generator -f docker/Dockerfile .
+docker build -t github-docs-generator:0.1.0 -f docker/Dockerfile .
 ```
 
-### Запуск Docker-контейнера
+### Запуск собранного Docker-контейнера
 
 Для запуска контейнера и генерации документации выполните:
 
